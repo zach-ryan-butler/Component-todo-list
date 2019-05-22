@@ -1,4 +1,4 @@
-import htmlToDom from '../html-to-DOM.js';
+import htmlToDom from '../html-to-dom';
 
 class Component {
 
