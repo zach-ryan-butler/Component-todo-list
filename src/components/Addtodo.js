@@ -10,7 +10,7 @@ class Addtodo extends Component {
             event.preventDefault();
 
             const formData = new FormData(form);
-
+            
             const newTodo = {
                 task: formData.get('task'),
                 completed: false
@@ -26,7 +26,7 @@ class Addtodo extends Component {
     renderTemplate() {
         return /*html*/`
         <form>
-            <label>Task: <input name="task"></label>
+            <label>Todo: <input name="task"></label>
             <button>Add</button>
         </form>
         `;
