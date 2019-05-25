@@ -1,7 +1,7 @@
 const todos = [
     {
         task: 'Learn templates',
-        completed: true
+        completed: false
     },
     {
         task: 'Learn forEach',
